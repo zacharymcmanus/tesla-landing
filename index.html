@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Electric Cars, Solar Panels & Clean Energy Storage | Tesla</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: arial;
+			background-image: url(./hero.jpeg);
+			background-repeat: no-repeat;
+			height: 100px;
+			background-size: cover;
+		}
+		nav {
+			position: absolute;
+			width: 100%;
+		}
+		nav > img {
+			height: 6%;
+			width: 6%;
+			margin-top: 20px;
+			margin-left: 20px;
+			display: block;
+			float: left;
+			color: white;
+		}
+		nav > ul {
+			margin-left: 400px;
+			padding-top: 17px;
+		}
+		nav ul li {
+			display: block;
+			float: left;
+			margin-left: 14px;
+		}
+		nav ul a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: white;
+			font-size: 14px;
+		}
+		nav ul a:hover {
+			color: grey;
+		}
+		.right-menu ul li{
+			display: block;
+			float: right; 
+		}
+		.right-menu ul li:last-child{
+			margin-left: 0;
+			margin-right: 12px;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin: 0 auto;
+			width: 600px;
+			height: 80vh;
+		}
+		.container a {
+			color: white;
+			text-decoration: none;
+			padding-bottom: 2px;
+			border-bottom: 2px solid white;
+			font-size: 14px;
+		}
+		h1 {
+			color: white;
+			font-size: 40px;
+			display: block;
+			padding-bottom: 20px;
+		}
+		button {
+			text-transform: uppercase;
+			padding: 0px 50px;
+			border-radius: 40px;
+			line-height: 32px;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		.buttons-group {
+			padding-bottom: 10px;
+		}
+		.buttons-group__transparent {
+			background-color: transparent;
+			color: white;
+			border: 3px solid white;
+		}
+		.buttons-group__transparent:hover {
+			background-color: white;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<img src="./logo.svg" alt="tesla-logo">
+		<ul>
+			<a href="#"><li>Model S</li></a>
+			<a href="#"><li>Model 3</li></a>
+			<a href="#"><li>Model X</li></a>
+			<a href="#"><li>Model Y</li></a>
+			<a href="#"><li>Cybertruck</li></a>
+			<a href="#"><li>Roadster</li></a>
+			<a href="#"><li>Energy</li></a>
+		</ul>
+		<div class="right-menu">
+			<ul>
+				<a href="#"><li>Sign In</li></a>
+				<a href="#"><li>Shop</li></a>
+			</ul>
+		</div>
+
+	</nav>
+	<section class="main">
+		<div class="container">
+			<h1>Model S</h1>
+			<div class="buttons-group">
+				<button class="buttons-group__white">Custom Order</button>
+				<button class="buttons-group__transparent">Existing Inventory</button>
+			</div>
+			<a href="#">Visit a Store</a>
+		</div>
+	</section>
+</body>
+</html>
